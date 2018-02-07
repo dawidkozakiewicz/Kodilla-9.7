@@ -13,7 +13,7 @@
   pickScissors.addEventListener('click', function() {
     playerPick('scissors');
   });
-  var gameState = 'notStarted', //started // ended
+  var gameState = 'notStarted',
     player = {
       name: '',
       score: 0
